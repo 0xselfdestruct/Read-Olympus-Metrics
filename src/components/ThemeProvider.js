@@ -39,7 +39,7 @@ const ThemeProvider = ({ children }) => {
                         alignItems: "center",
                         justifyContent: "space-around",
                         flexWrap: "wrap",
-                        height: "80vh"
+                        minHeight: "80vh"
                     }}
                 >
                     {children}
